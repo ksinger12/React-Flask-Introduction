@@ -2,17 +2,33 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# Getting Setup
+
+### pip install flask
+
+cd into the api folder and install the flask package using pip.
+If running into issues with setup, follow this [link](https://blog.miguelgrinberg.com/post/how-to-create-a-react--flask-project?fbclid=IwAR3QNAQMmNOiAsXsJ9pmDHOiTUKXceg-qJHqHLFhP2bzSxoGnNxNYeS9Y_I)
+
 ## Available Scripts
 
 In the project directory, you can run:
+(Note: you will need to run both the UI and API in seperate terminal windows)
 
-### `yarn start`
+### `yarn start-ui`
 
-Runs the app in the development mode.\
+Runs the UI in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
+
+### `yarn start-api`
+
+Runs the api in development mode.\
+Open [http://localhost:5000](http://locahost:5000) to view it in the
+browser. Note: should be seeing a "404 Not Found"
+
+The page will not reload if you make edits. You will need to re-run.\
 
 ### `yarn test`
 
