@@ -12,7 +12,18 @@ If running into issues with setup, follow this [link](https://blog.miguelgrinber
 ## Available Scripts
 
 In the project directory, you can run:
-(Note: you will need to run both the UI and API in seperate terminal windows)
+(Note: you will need to run both the UI and API)
+
+### `yarn dev`
+
+Runs the UI and the API in development modes. It will call the yarn start-ui and
+yarn start-api commands together.
+
+To stop them running, will need to click ctrl C (^C) twice, once for each instance
+running.
+
+Note: To make this function call available, you will need to install concurrently:
+`npm install -g concurrently`
 
 ### `yarn start-ui`
 
@@ -24,7 +35,7 @@ You will also see any lint errors in the console.
 
 ### `yarn start-api`
 
-Runs the api in development mode.\
+Runs the API in development mode.\
 Open [http://localhost:5000](http://locahost:5000) to view it in the
 browser. Note: should be seeing a "404 Not Found"
 
