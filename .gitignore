@@ -16,6 +16,7 @@ venv
 .env.development.local
 .env.test.local
 .env.production.local
+.eslintcache
 __pycache__
 
 npm-debug.log*
